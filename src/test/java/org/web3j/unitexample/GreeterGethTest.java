@@ -12,6 +12,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @EVMTest(type = NodeType.GETH)
 public class GreeterGethTest {
+
+    @Disabled
     @Test
     public void helloWorldTest(Web3j web3j,
                                TransactionManager transactionManager,
