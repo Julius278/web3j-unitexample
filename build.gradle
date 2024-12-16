@@ -28,7 +28,7 @@ dependencies {
     implementation 'com.beust:klaxon:5.5'
     implementation "org.web3j:core:4.12.2"
     implementation "org.web3j:web3j-evm:4.12.2"
-    implementation "org.hyperledger.besu.internal:core:21.7.2"
+    implementation "org.hyperledger.besu.internal:core:21.10.2"
     
     // https://mvnrepository.com/artifact/org.ethereum/solcJ-all
     //implementation group: 'org.ethereum', name: 'solcJ-all', version: '0.4.25'
