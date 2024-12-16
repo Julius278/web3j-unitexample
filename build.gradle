@@ -20,6 +20,10 @@ repositories {
     maven { url "https://dl.cloudsmith.io/public/consensys/quorum-mainnet-launcher/maven/" }
 }
 
+tasks.named('compileKotlin') {
+    dependsOn tasks.named('generateContractWrappers')
+}
+
 dependencies {
     implementation 'com.beust:klaxon:5.5'
     implementation "org.web3j:core:4.12.2"
