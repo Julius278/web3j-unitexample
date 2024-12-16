@@ -18,7 +18,10 @@ repositories {
 
 dependencies {
     implementation "org.web3j:core:4.5.12"
-
+    
+    // https://mvnrepository.com/artifact/org.ethereum/solcJ-all
+    implementation group: 'org.ethereum', name: 'solcJ-all', version: '0.4.25'
+    
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 
     testCompile "org.web3j:web3j-unit:4.5.12"
