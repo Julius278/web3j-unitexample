@@ -9,7 +9,7 @@ apply plugin: 'org.web3j'
 group 'org.web3j.unit-usage-example'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 17
 
 repositories {
     mavenCentral()
